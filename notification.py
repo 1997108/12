@@ -15,7 +15,7 @@ import time
 
 
 
-NOTIFYCFG = 0     # [0,1,2,3]  0:不通知    1:server酱    2:bark服务    3:Telegram_bot
+NOTIFYCFG = 3     # [0,1,2,3]  0:不通知    1:server酱    2:bark服务    3:Telegram_bot
 
 SCKEY = ''        # Server酱的SCKEY
 BARK = ''         # bark服务,自行搜索
