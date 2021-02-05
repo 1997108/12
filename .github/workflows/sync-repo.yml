@@ -1,13 +1,11 @@
-# File: .github/workflows/repo-sync.yml
 name: 同步上游仓库
 on:
   schedule:
-    - cron: '1 0,12,22 * * *'
-  workflow_dispatch:
+    - cron: '0 8 */7 * *'
   watch:
     types: started
   repository_dispatch:
-    types: sync-Water008-qqread
+    types: sync-repo
 jobs:
   repo-sync:
     env:
@@ -19,11 +17,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync Water008-qqread
+      - name: sync xmly_speed
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
           source_repo: "https://github.com/whyour/hundun.git"
-          source_branch: "main"
+          source_branch: "master"
           destination_branch: "main"
           github_token: ${{ secrets.PAT }}
