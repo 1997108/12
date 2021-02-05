@@ -7,7 +7,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-whyour-hundun
+    types: sync-Water008-qqread
 jobs:
   repo-sync:
     env:
@@ -19,7 +19,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync whyour-hundun
+      - name: sync Water008-qqread
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
