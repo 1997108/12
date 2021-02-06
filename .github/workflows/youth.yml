@@ -2,7 +2,7 @@ name: 中青阅读
 
 on:
   schedule:
-    - cron: '*/10 5,23 * * *'
+    - cron: '*/10 * * * *'
   watch:
     types: [started]
 jobs:
@@ -30,7 +30,7 @@ jobs:
             YOUTH_READBODY1: ${{ secrets.YOUTH_READBODY1 }}  #必须 账号1 body1
             YOUTH_REDBODY1: ${{ secrets.YOUTH_REDBODY1 }}  #必须 账号1 body1
             YOUTH_READTIMEBODY1: ${{ secrets.YOUTH_READTIMEBODY1 }}  #必须 账号1 body1
-            YOUTH_WITHDRAWBODY1: ${{ secrets.YOUTH_WITHDRAWBODY1 }}  #非必须 账号1提现 body1
+            YOUTH_WITHDRAWBODY1: ${{ secrets.YOUTH_READTIMEBODY1 }}  #非必须 账号1提现 body1
             YOUTH_HEADER2: ${{ secrets.YOUTH_HEADER2 }}  #非必须 账号2 body2
             YOUTH_READBODY2: ${{ secrets.YOUTH_READBODY2 }}  #非必须 账号2 body2
             YOUTH_REDBODY2: ${{ secrets.YOUTH_REDBODY2 }}  #非必须 账号2 body2
