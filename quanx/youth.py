@@ -50,7 +50,7 @@ YOUTH_HOST = "https://kd.youth.cn/WebApi/"
 
 def get_standard_time():
   """
-  获取utc时间和北京时间
+  //获取utc时间和北京时间
   :return:
   """
   # <class 'datetime.datetime'>
@@ -60,7 +60,7 @@ def get_standard_time():
 
 def pretty_dict(dict):
     """
-    格式化输出 json 或者 dict 格式的变量
+    //格式化输出 json 或者 dict 格式的变量
     :param dict:
     :return:
     """
@@ -68,7 +68,7 @@ def pretty_dict(dict):
 
 def sign(headers):
   """
-  签到
+  //签到
   :param headers:
   :return:
   """
@@ -88,7 +88,7 @@ def sign(headers):
 
 def signInfo(headers):
   """
-  签到详情
+  //签到详情
   :param headers:
   :return:
   """
@@ -108,7 +108,7 @@ def signInfo(headers):
 
 def punchCard(headers):
   """
-  打卡报名
+  //打卡报名
   :param headers:
   :return:
   """
@@ -128,7 +128,7 @@ def punchCard(headers):
 
 def doCard(headers):
   """
-  早起打卡
+  //早起打卡
   :param headers:
   :return:
   """
@@ -149,7 +149,7 @@ def doCard(headers):
 
 def shareCard(headers):
   """
-  打卡分享
+  //打卡分享
   :param headers:
   :return:
   """
@@ -173,7 +173,7 @@ def shareCard(headers):
 
 def luckDraw(headers):
   """
-  打卡分享
+  //打卡分享
   :param headers:
   :return:
   """
@@ -193,7 +193,7 @@ def luckDraw(headers):
 
 def shareArticle(headers):
   """
-  分享文章
+  //分享文章
   :param headers:
   :return:
   """
@@ -215,7 +215,7 @@ def shareArticle(headers):
 
 def openBox(headers):
   """
-  开启宝箱
+  //开启宝箱
   :param headers:
   :return:
   """
@@ -236,7 +236,7 @@ def openBox(headers):
 
 def shareBox(headers):
   """
-  宝箱分享
+  //宝箱分享
   :param headers:
   :return:
   """
@@ -256,7 +256,7 @@ def shareBox(headers):
 
 def friendList(headers):
   """
-  好友列表
+  //好友列表
   :param headers:
   :return:
   """
@@ -281,7 +281,7 @@ def friendList(headers):
 
 def friendSign(headers, uid):
   """
-  好友签到
+  //好友签到
   :param headers:
   :return:
   """
@@ -301,7 +301,7 @@ def friendSign(headers, uid):
 
 def sendTwentyScore(headers, action):
   """
-  每日任务
+  //每日任务
   :param headers:
   :return:
   """
@@ -321,7 +321,7 @@ def sendTwentyScore(headers, action):
 
 def watchAdVideo(headers):
   """
-  看广告视频
+  //看广告视频
   :param headers:
   :return:
   """
@@ -342,7 +342,7 @@ def watchAdVideo(headers):
 
 def watchGameVideo(body):
   """
-  激励视频
+  //激励视频
   :param headers:
   :return:
   """
@@ -363,7 +363,7 @@ def watchGameVideo(body):
 
 def visitReward(body):
   """
-  回访奖励
+  //回访奖励
   :param headers:
   :return:
   """
@@ -387,7 +387,7 @@ def visitReward(body):
 
 def articleRed(body):
   """
-  惊喜红包
+  //惊喜红包
   :param headers:
   :return:
   """
@@ -411,7 +411,7 @@ def articleRed(body):
 
 def readTime(body):
   """
-  阅读时长
+  //阅读时长
   :param headers:
   :return:
   """
@@ -435,7 +435,7 @@ def readTime(body):
 
 def rotary(headers, body):
   """
-  转盘任务
+  //转盘任务
   :param headers:
   :return:
   """
@@ -453,7 +453,7 @@ def rotary(headers, body):
 
 def rotaryChestReward(headers, body):
   """
-  转盘宝箱
+  //转盘宝箱
   :param headers:
   :return:
   """
@@ -481,7 +481,7 @@ def rotaryChestReward(headers, body):
 
 def runRotary(headers, body):
   """
-  转盘宝箱
+  //转盘宝箱
   :param headers:
   :return:
   """
@@ -502,7 +502,7 @@ def runRotary(headers, body):
 
 def doubleRotary(headers, body):
   """
-  转盘双倍
+  //转盘双倍
   :param headers:
   :return:
   """
@@ -523,7 +523,7 @@ def doubleRotary(headers, body):
 
 def incomeStat(headers):
   """
-  收益统计
+  //收益统计
   :param headers:
   :return:
   """
@@ -543,7 +543,7 @@ def incomeStat(headers):
 
 def withdraw(body):
   """
-  自动提现
+  //自动提现
   :param headers:
   :return:
   """
@@ -567,7 +567,7 @@ def withdraw(body):
 
 def bereadRed(headers):
   """
-  时段红包
+  //时段红包
   :param headers:
   :return:
   """
